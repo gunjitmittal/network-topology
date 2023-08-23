@@ -1,0 +1,45 @@
+,From,To,domain,label
+0,Source,AS59193 IIT Hyderabad,google.com,1
+1,AS59193 IIT Hyderabad,AS15169 Google LLC,google.com,1
+2,Source,AS59193 IIT Hyderabad,youtube.com,1
+3,AS59193 IIT Hyderabad,AS15169 Google LLC,youtube.com,1
+4,Source,AS59193 IIT Hyderabad,fitbit.com,1
+5,AS59193 IIT Hyderabad,AS15169 Google LLC,fitbit.com,1
+6,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,1
+7,Source,AS59193 IIT Hyderabad,socratic.com,1
+8,AS59193 IIT Hyderabad,AS15169 Google LLC,socratic.com,1
+9,Source,AS59193 IIT Hyderabad,keio.ac.jp,1
+10,AS59193 IIT Hyderabad,AS55824 NKN Core Network,keio.ac.jp,1
+11,Source,AS59193 IIT Hyderabad,ed.ac.uk,1
+12,AS59193 IIT Hyderabad,AS55824 NKN Core Network,ed.ac.uk,1
+13,AS55824 NKN Core Network,AS20965 GEANT Vereniging,ed.ac.uk,1
+14,AS20965 GEANT Vereniging,AS786 Jisc Services Limited,ed.ac.uk,1
+15,Source,AS59193 IIT Hyderabad,harvard.edu,1
+16,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,harvard.edu,1
+17,AS55836 Reliance Jio Infocomm Limited,"AS54113 Fastly, Inc.",harvard.edu,1
+18,Source,AS59193 IIT Hyderabad,delugerpg.com,1
+19,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,delugerpg.com,1
+20,AS55836 Reliance Jio Infocomm Limited,"AS13335 Cloudflare, Inc.",delugerpg.com,1
+21,Source,AS59193 IIT Hyderabad,friv.com,1
+22,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,friv.com,1
+23,AS55836 Reliance Jio Infocomm Limited,AS4637 Telstra Global,friv.com,1
+24,AS4637 Telstra Global,AS6453 TATA COMMUNICATIONS (AMERICA) INC,friv.com,1
+25,AS6453 TATA COMMUNICATIONS (AMERICA) INC,"AS30633 Leaseweb USA, Inc.",friv.com,1
+26,Source,AS59193 IIT Hyderabad,kongregate.com,1
+27,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,kongregate.com,1
+28,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",kongregate.com,1
+29,Source,AS59193 IIT Hyderabad,miniclip.com,1
+30,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,miniclip.com,1
+31,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",miniclip.com,1
+32,Source,AS59193 IIT Hyderabad,notdoppler.com,1
+33,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,notdoppler.com,1
+34,Source,AS59193 IIT Hyderabad,guinnessworldrecords.com,1
+35,Source,AS59193 IIT Hyderabad,fearp.usp.br,1
+36,AS59193 IIT Hyderabad,AS55824 NKN Core Network,fearp.usp.br,1
+37,Source,AS59193 IIT Hyderabad,uj.ac.za,1
+38,AS59193 IIT Hyderabad,AS55824 NKN Core Network,uj.ac.za,1
+39,Source,AS59193 IIT Hyderabad,canberra.edu.au,1
+40,Source,AS59193 IIT Hyderabad,facebook.com,1
+41,Source,AS59193 IIT Hyderabad,instagram.com,1
+42,Source,AS59193 IIT Hyderabad,threads.net,1
+43,Source,AS59193 IIT Hyderabad,web.whatsapp.com,1
