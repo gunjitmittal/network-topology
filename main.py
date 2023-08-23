@@ -36,20 +36,21 @@ def parse_traceroute_data(data):
     return traceroutes
 
 def main():
-    input_files = ['a1.txt','b1.txt','c1.txt','ankit1.txt']
-    output_files = ['out_1.csv', 'out1_1.csv', 'out2_1.csv', 'out3_1.csv']
+    input_files = ['iith_data.txt','neth_data.txt','usa_data.txt','ankit.txt']
+    output_file = 'edges.csv'
     label = ['1','2','3','4']
     ips = []
+    ip_data = []
+    with open(output_file, "w", newline="") as csv_file:
+                csv_writer = csv.writer(csv_file)
+                csv_writer.writerow(["From", "To", "domain", "label", "TTL"])
     for p in range(0,4):
         with open(input_files[p], "r") as file:
             data = file.read()
 
         traceroutes = parse_traceroute_data(data)
-        with open(output_files[p], "w", newline="") as csv_file:
-                csv_writer = csv.writer(csv_file)
-                csv_writer.writerow(["From", "To", "domain", "label", "TTL"])
         for key,traceroute in traceroutes.items():
-            csv_filename = output_files[p]
+            csv_filename = output_file
             traceroute_rows = []
             begin = 0
             while(traceroute[begin].split()[1]=='*'):
@@ -70,13 +71,17 @@ def main():
                 csv_writer = csv.writer(csv_file)
                 csv_writer.writerows(traceroute_rows)
 
-        print(f"CSV data for traceroute has been written to {csv_filename}")
-    with open("ip1.csv", "w", newline="") as csv_file:
+    with open("ip.csv", "w", newline="") as csv_file:
         csv.writer(csv_file).writerow(["IP", "label", "loc"])
         csv_writer = csv.writer(csv_file)
         ip_data = get_data(ips)
         for ip in ip_data:
             csv_writer.writerow(ip)
-
+    # print(len(ip_data))
+    # unique_lists = set()
+    # for sublist in ip_data:
+    #     unique_lists.add(sublist[1])
+    # unique_result = [list(sublist) for sublist in unique_lists]
+    # print(len(unique_result))
 if __name__ == "__main__":
     main()
