@@ -9,7 +9,11 @@ ip_as_mapping = dict(ip_as_mapping.values)
 
 # Step 2: Read out.csv and replace IP-based edges with AS-based edges
 as_df = []
-headers = ['From', 'To', 'domain', 'label']
+
+def as_org_split(s):
+    if s is None: return None, None
+    ls = s.split()
+    return ls[0], ' '.join(ls[1:])
 
 def fill(label):
 
@@ -39,19 +43,30 @@ for i in range(1, 5):
     fill(i)
 
 # Making a list of all unique AS numbers
-as_numbers = set()
+as_numbers_set = set()
 for edge in as_df:
-    as_numbers.add(edge[0])
-    as_numbers.add(edge[1])
+    as_numbers_set.add(edge[0])
+    as_numbers_set.add(edge[1])
+
+as_numbers = []
+for as_number in as_numbers_set:
+    asn, org = as_org_split(as_number)
+    as_numbers.append([asn, org])
 
 as_numbers = pd.DataFrame(as_numbers)
-as_numbers.set_axis(['Label'], axis='columns', inplace=True)
+as_numbers.set_axis(['Label', 'Organization'], axis='columns', inplace=True)
 as_numbers.to_csv('as_numbers.csv', index=False)
 
 # Step 3: Write the AS-based edges to a new CSV file using Pandas
+for i, edge in enumerate(as_df):
+    asn1, org1 = as_org_split(edge[0])
+    asn2, org2 = as_org_split(edge[1])
+    as_df[i][0] = asn1
+    as_df[i][1] = asn2
+
 as_df = pd.DataFrame(as_df)
 as_df.index += 1
-as_df.set_axis(headers, axis='columns', inplace=True)
+as_df.set_axis(['From', 'To', 'Domain', 'Source'], axis='columns', inplace=True)
 as_df.to_csv('as_edges_index.csv', index_label='id')
 
 print(as_df)

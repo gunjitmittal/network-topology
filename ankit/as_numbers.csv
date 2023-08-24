@@ -1,32 +1,32 @@
-Label
-"AS24560 Bharti Airtel Ltd., Telemedia Services"
-AS55836 Reliance Jio Infocomm Limited
-"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences"""
-"AS16509 Amazon.com, Inc."
-"AS13335 Cloudflare, Inc."
-AS15169 Google LLC
-AS7713 PT Telekomunikasi Indonesia
-AS396982 Google LLC
-AS28571 UNIVERSIDADE DE SAO PAULO
-AS4637 Telstra Global
-AS6461 Zayo Bandwidth
-"AS7922 Comcast Cable Communications, LLC"
-AS1916 Rede Nacional de Ensino e Pesquisa
-AS34984 Superonline Iletisim Hizmetleri A.S.
-AS1299 Arelion Sweden AB
-AS9498 BHARTI Airtel Ltd.
-"AS54113 Fastly, Inc."
-AS49981 WorldStream B.V.
-AS201011 Core-Backbone GmbH
-"AS30633 Leaseweb USA, Inc."
-AS20965 GEANT Vereniging
-AS6762 TELECOM ITALIA SPARKLE S.p.A.
-AS60068 Datacamp Limited
-AS212238 Datacamp Limited
-AS59193 IIT Hyderabad
-AS174 Cogent Communications
-AS55824 NKN Core Network
-AS11537 Internet2
-"AS32934 Facebook, Inc."
-AS6453 TATA COMMUNICATIONS (AMERICA) INC
-AS786 Jisc Services Limited
+Label,Organization
+AS20965,GEANT Vereniging
+AS6762,TELECOM ITALIA SPARKLE S.p.A.
+AS15169,Google LLC
+AS55824,NKN Core Network
+AS1916,Rede Nacional de Ensino e Pesquisa
+AS6453,TATA COMMUNICATIONS (AMERICA) INC
+AS11537,Internet2
+AS32934,"Facebook, Inc."
+AS212238,Datacamp Limited
+AS7922,"Comcast Cable Communications, LLC"
+AS786,Jisc Services Limited
+AS34984,Superonline Iletisim Hizmetleri A.S.
+AS1299,Arelion Sweden AB
+AS24560,"Bharti Airtel Ltd., Telemedia Services"
+AS201011,Core-Backbone GmbH
+AS49981,WorldStream B.V.
+AS28571,UNIVERSIDADE DE SAO PAULO
+AS60068,Datacamp Limited
+AS16509,"Amazon.com, Inc."
+AS13335,"Cloudflare, Inc."
+AS6461,Zayo Bandwidth
+AS396982,Google LLC
+AS55836,Reliance Jio Infocomm Limited
+AS54113,"Fastly, Inc."
+AS4637,Telstra Global
+AS30633,"Leaseweb USA, Inc."
+AS7713,PT Telekomunikasi Indonesia
+AS9498,BHARTI Airtel Ltd.
+AS59193,IIT Hyderabad
+AS174,Cogent Communications
+AS3267,"Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences"""
