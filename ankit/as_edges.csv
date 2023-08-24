@@ -1,45 +1,121 @@
 ,From,To,domain,label
-0,Source,AS59193 IIT Hyderabad,google.com,1
-1,AS59193 IIT Hyderabad,AS15169 Google LLC,google.com,1
-2,Source,AS59193 IIT Hyderabad,youtube.com,1
-3,AS59193 IIT Hyderabad,AS15169 Google LLC,youtube.com,1
-4,Source,AS59193 IIT Hyderabad,fitbit.com,1
-5,AS59193 IIT Hyderabad,AS15169 Google LLC,fitbit.com,1
-6,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,1
-7,Source,AS59193 IIT Hyderabad,socratic.com,1
-8,AS59193 IIT Hyderabad,AS15169 Google LLC,socratic.com,1
-9,Source,AS59193 IIT Hyderabad,keio.ac.jp,1
-10,AS59193 IIT Hyderabad,AS55824 NKN Core Network,keio.ac.jp,1
-11,Source,AS59193 IIT Hyderabad,ed.ac.uk,1
-12,AS59193 IIT Hyderabad,AS55824 NKN Core Network,ed.ac.uk,1
-13,AS55824 NKN Core Network,AS20965 GEANT Vereniging,ed.ac.uk,1
-14,AS20965 GEANT Vereniging,AS786 Jisc Services Limited,ed.ac.uk,1
-15,Source,AS59193 IIT Hyderabad,harvard.edu,1
-16,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,harvard.edu,1
-17,AS55836 Reliance Jio Infocomm Limited,"AS54113 Fastly, Inc.",harvard.edu,1
-18,Source,AS59193 IIT Hyderabad,delugerpg.com,1
-19,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,delugerpg.com,1
-20,AS55836 Reliance Jio Infocomm Limited,"AS13335 Cloudflare, Inc.",delugerpg.com,1
-21,Source,AS59193 IIT Hyderabad,friv.com,1
-22,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,friv.com,1
-23,AS55836 Reliance Jio Infocomm Limited,AS4637 Telstra Global,friv.com,1
-24,AS4637 Telstra Global,AS6453 TATA COMMUNICATIONS (AMERICA) INC,friv.com,1
-25,AS6453 TATA COMMUNICATIONS (AMERICA) INC,"AS30633 Leaseweb USA, Inc.",friv.com,1
-26,Source,AS59193 IIT Hyderabad,kongregate.com,1
-27,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,kongregate.com,1
-28,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",kongregate.com,1
-29,Source,AS59193 IIT Hyderabad,miniclip.com,1
-30,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,miniclip.com,1
-31,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",miniclip.com,1
-32,Source,AS59193 IIT Hyderabad,notdoppler.com,1
-33,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,notdoppler.com,1
-34,Source,AS59193 IIT Hyderabad,guinnessworldrecords.com,1
-35,Source,AS59193 IIT Hyderabad,fearp.usp.br,1
-36,AS59193 IIT Hyderabad,AS55824 NKN Core Network,fearp.usp.br,1
-37,Source,AS59193 IIT Hyderabad,uj.ac.za,1
-38,AS59193 IIT Hyderabad,AS55824 NKN Core Network,uj.ac.za,1
-39,Source,AS59193 IIT Hyderabad,canberra.edu.au,1
-40,Source,AS59193 IIT Hyderabad,facebook.com,1
-41,Source,AS59193 IIT Hyderabad,instagram.com,1
-42,Source,AS59193 IIT Hyderabad,threads.net,1
-43,Source,AS59193 IIT Hyderabad,web.whatsapp.com,1
+0,AS59193 IIT Hyderabad,AS15169 Google LLC,google.com,1
+1,AS59193 IIT Hyderabad,AS15169 Google LLC,fitbit.com,1
+2,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,1
+3,AS59193 IIT Hyderabad,AS55824 NKN Core Network,ed.ac.uk,1
+4,AS55824 NKN Core Network,AS20965 GEANT Vereniging,ed.ac.uk,1
+5,AS20965 GEANT Vereniging,AS786 Jisc Services Limited,ed.ac.uk,1
+6,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,harvard.edu,1
+7,AS55836 Reliance Jio Infocomm Limited,"AS54113 Fastly, Inc.",harvard.edu,1
+8,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,delugerpg.com,1
+9,AS55836 Reliance Jio Infocomm Limited,"AS13335 Cloudflare, Inc.",delugerpg.com,1
+10,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,friv.com,1
+11,AS55836 Reliance Jio Infocomm Limited,AS4637 Telstra Global,friv.com,1
+12,AS4637 Telstra Global,AS6453 TATA COMMUNICATIONS (AMERICA) INC,friv.com,1
+13,AS6453 TATA COMMUNICATIONS (AMERICA) INC,"AS30633 Leaseweb USA, Inc.",friv.com,1
+14,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,kongregate.com,1
+15,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",kongregate.com,1
+16,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,miniclip.com,1
+17,AS55836 Reliance Jio Infocomm Limited,"AS16509 Amazon.com, Inc.",miniclip.com,1
+18,AS59193 IIT Hyderabad,AS55836 Reliance Jio Infocomm Limited,notdoppler.com,1
+19,AS55836 Reliance Jio Infocomm Limited,"AS13335 Cloudflare, Inc.",notdoppler.com,1
+20,AS59193 IIT Hyderabad,"AS16509 Amazon.com, Inc.",guinnessworldrecords.com,1
+21,AS59193 IIT Hyderabad,AS55824 NKN Core Network,fearp.usp.br,1
+22,AS55824 NKN Core Network,AS11537 Internet2,fearp.usp.br,1
+23,AS11537 Internet2,AS1916 Rede Nacional de Ensino e Pesquisa,fearp.usp.br,1
+24,AS1916 Rede Nacional de Ensino e Pesquisa,AS28571 UNIVERSIDADE DE SAO PAULO,fearp.usp.br,1
+25,AS59193 IIT Hyderabad,"AS32934 Facebook, Inc.",facebook.com,1
+26,AS59193 IIT Hyderabad,"AS32934 Facebook, Inc.",instagram.com,1
+27,AS49981 WorldStream B.V.,AS15169 Google LLC,google.com,2
+28,AS49981 WorldStream B.V.,AS15169 Google LLC,fitbit.com,2
+29,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,2
+30,AS49981 WorldStream B.V.,AS201011 Core-Backbone GmbH,ed.ac.uk,2
+31,AS201011 Core-Backbone GmbH,AS34984 Superonline Iletisim Hizmetleri A.S.,ed.ac.uk,2
+32,AS34984 Superonline Iletisim Hizmetleri A.S.,AS786 Jisc Services Limited,ed.ac.uk,2
+33,AS49981 WorldStream B.V.,AS6762 TELECOM ITALIA SPARKLE S.p.A.,harvard.edu,2
+34,AS6762 TELECOM ITALIA SPARKLE S.p.A.,"AS54113 Fastly, Inc.",harvard.edu,2
+35,AS49981 WorldStream B.V.,"AS13335 Cloudflare, Inc.",delugerpg.com,2
+36,AS49981 WorldStream B.V.,AS174 Cogent Communications,friv.com,2
+37,AS174 Cogent Communications,"AS30633 Leaseweb USA, Inc.",friv.com,2
+38,AS49981 WorldStream B.V.,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""",kongregate.com,2
+39,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""","AS16509 Amazon.com, Inc.",kongregate.com,2
+40,AS49981 WorldStream B.V.,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""",miniclip.com,2
+41,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""","AS16509 Amazon.com, Inc.",miniclip.com,2
+42,AS49981 WorldStream B.V.,"AS13335 Cloudflare, Inc.",notdoppler.com,2
+43,AS49981 WorldStream B.V.,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""",guinnessworldrecords.com,2
+44,"AS3267 Federal State Institution ""Federal Scientific Research Institute for System Analysis of the Russian Academy of Sciences""","AS16509 Amazon.com, Inc.",guinnessworldrecords.com,2
+45,AS49981 WorldStream B.V.,AS174 Cogent Communications,fearp.usp.br,2
+46,AS174 Cogent Communications,AS1916 Rede Nacional de Ensino e Pesquisa,fearp.usp.br,2
+47,AS1916 Rede Nacional de Ensino e Pesquisa,AS28571 UNIVERSIDADE DE SAO PAULO,fearp.usp.br,2
+48,AS49981 WorldStream B.V.,"AS32934 Facebook, Inc.",facebook.com,2
+49,AS49981 WorldStream B.V.,"AS32934 Facebook, Inc.",instagram.com,2
+50,AS212238 Datacamp Limited,AS60068 Datacamp Limited,google.com,3
+51,AS60068 Datacamp Limited,AS1299 Arelion Sweden AB,google.com,3
+52,AS1299 Arelion Sweden AB,AS15169 Google LLC,google.com,3
+53,AS212238 Datacamp Limited,AS60068 Datacamp Limited,fitbit.com,3
+54,AS60068 Datacamp Limited,AS1299 Arelion Sweden AB,fitbit.com,3
+55,AS1299 Arelion Sweden AB,AS15169 Google LLC,fitbit.com,3
+56,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,3
+57,AS212238 Datacamp Limited,AS60068 Datacamp Limited,ed.ac.uk,3
+58,AS60068 Datacamp Limited,AS1299 Arelion Sweden AB,ed.ac.uk,3
+59,AS1299 Arelion Sweden AB,AS786 Jisc Services Limited,ed.ac.uk,3
+60,AS212238 Datacamp Limited,AS60068 Datacamp Limited,harvard.edu,3
+61,AS60068 Datacamp Limited,AS174 Cogent Communications,harvard.edu,3
+62,AS174 Cogent Communications,"AS54113 Fastly, Inc.",harvard.edu,3
+63,AS212238 Datacamp Limited,AS60068 Datacamp Limited,delugerpg.com,3
+64,AS60068 Datacamp Limited,"AS13335 Cloudflare, Inc.",delugerpg.com,3
+65,AS212238 Datacamp Limited,AS60068 Datacamp Limited,friv.com,3
+66,AS60068 Datacamp Limited,AS174 Cogent Communications,friv.com,3
+67,AS174 Cogent Communications,"AS30633 Leaseweb USA, Inc.",friv.com,3
+68,AS212238 Datacamp Limited,AS60068 Datacamp Limited,kongregate.com,3
+69,AS60068 Datacamp Limited,"AS7922 Comcast Cable Communications, LLC",kongregate.com,3
+70,"AS7922 Comcast Cable Communications, LLC","AS16509 Amazon.com, Inc.",kongregate.com,3
+71,AS212238 Datacamp Limited,AS60068 Datacamp Limited,miniclip.com,3
+72,AS60068 Datacamp Limited,"AS7922 Comcast Cable Communications, LLC",miniclip.com,3
+73,"AS7922 Comcast Cable Communications, LLC","AS16509 Amazon.com, Inc.",miniclip.com,3
+74,AS212238 Datacamp Limited,AS60068 Datacamp Limited,notdoppler.com,3
+75,AS60068 Datacamp Limited,"AS13335 Cloudflare, Inc.",notdoppler.com,3
+76,AS212238 Datacamp Limited,AS60068 Datacamp Limited,guinnessworldrecords.com,3
+77,AS60068 Datacamp Limited,"AS7922 Comcast Cable Communications, LLC",guinnessworldrecords.com,3
+78,"AS7922 Comcast Cable Communications, LLC","AS16509 Amazon.com, Inc.",guinnessworldrecords.com,3
+79,AS212238 Datacamp Limited,AS60068 Datacamp Limited,fearp.usp.br,3
+80,AS60068 Datacamp Limited,AS174 Cogent Communications,fearp.usp.br,3
+81,AS174 Cogent Communications,AS1916 Rede Nacional de Ensino e Pesquisa,fearp.usp.br,3
+82,AS1916 Rede Nacional de Ensino e Pesquisa,AS28571 UNIVERSIDADE DE SAO PAULO,fearp.usp.br,3
+83,AS212238 Datacamp Limited,AS60068 Datacamp Limited,facebook.com,3
+84,AS60068 Datacamp Limited,"AS32934 Facebook, Inc.",facebook.com,3
+85,AS212238 Datacamp Limited,AS60068 Datacamp Limited,instagram.com,3
+86,AS60068 Datacamp Limited,"AS32934 Facebook, Inc.",instagram.com,3
+87,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,google.com,4
+88,AS9498 BHARTI Airtel Ltd.,AS15169 Google LLC,google.com,4
+89,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd., harvard.edu,4
+90,AS9498 BHARTI Airtel Ltd.,"AS54113 Fastly, Inc.", harvard.edu,4
+91,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,ed.ac.uk ,4
+92,AS9498 BHARTI Airtel Ltd.,AS6461 Zayo Bandwidth,ed.ac.uk ,4
+93,AS6461 Zayo Bandwidth,AS34984 Superonline Iletisim Hizmetleri A.S.,ed.ac.uk ,4
+94,AS34984 Superonline Iletisim Hizmetleri A.S.,AS786 Jisc Services Limited,ed.ac.uk ,4
+95,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,fearp.usp.br ,4
+96,AS9498 BHARTI Airtel Ltd.,AS7713 PT Telekomunikasi Indonesia,fearp.usp.br ,4
+97,AS7713 PT Telekomunikasi Indonesia,AS1916 Rede Nacional de Ensino e Pesquisa,fearp.usp.br ,4
+98,AS1916 Rede Nacional de Ensino e Pesquisa,AS28571 UNIVERSIDADE DE SAO PAULO,fearp.usp.br ,4
+99,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,fitbit.com,4
+100,AS9498 BHARTI Airtel Ltd.,AS15169 Google LLC,fitbit.com,4
+101,AS15169 Google LLC,AS396982 Google LLC,fitbit.com,4
+102,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,facebook.com ,4
+103,AS9498 BHARTI Airtel Ltd.,"AS32934 Facebook, Inc.",facebook.com ,4
+104,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,instagram.com,4
+105,AS9498 BHARTI Airtel Ltd.,"AS32934 Facebook, Inc.",instagram.com,4
+106,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,guinnessworldrecords.com,4
+107,AS9498 BHARTI Airtel Ltd.,"AS16509 Amazon.com, Inc.",guinnessworldrecords.com,4
+108,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,delugerpg.com ,4
+109,AS9498 BHARTI Airtel Ltd.,"AS13335 Cloudflare, Inc.",delugerpg.com ,4
+110,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd., friv.com ,4
+111,AS9498 BHARTI Airtel Ltd.,AS1299 Arelion Sweden AB, friv.com ,4
+112,AS1299 Arelion Sweden AB,"AS30633 Leaseweb USA, Inc.", friv.com ,4
+113,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,kongregate.com,4
+114,AS9498 BHARTI Airtel Ltd.,AS174 Cogent Communications,kongregate.com,4
+115,AS174 Cogent Communications,"AS54113 Fastly, Inc.",kongregate.com,4
+116,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,miniclip.com ,4
+117,AS9498 BHARTI Airtel Ltd.,"AS16509 Amazon.com, Inc.",miniclip.com ,4
+118,"AS24560 Bharti Airtel Ltd., Telemedia Services",AS9498 BHARTI Airtel Ltd.,notdoppler.com ,4
+119,AS9498 BHARTI Airtel Ltd.,"AS13335 Cloudflare, Inc.",notdoppler.com ,4
