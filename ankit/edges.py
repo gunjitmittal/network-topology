@@ -8,44 +8,50 @@ ip_as_mapping = ip_as_mapping.iloc[:, :2]
 ip_as_mapping = dict(ip_as_mapping.values)
 
 # Step 2: Read out.csv and replace IP-based edges with AS-based edges
-as_edges = []
-out_df = pd.read_csv('out.csv')
-for _, row in out_df.iterrows():
-    src_ip, dst_ip, domain, label, ttl = row
-    src_as = ip_as_mapping.get(src_ip)
-    dst_as = ip_as_mapping.get(dst_ip)
-    as_edges.append([src_as, dst_as, domain])
-
-paths = {}
-for edge in as_edges:
-    if edge[2] not in paths: paths[edge[2]] = []
-    if edge[0] is not None: paths[edge[2]].append(edge[0])
-    if edge[1] is not None: paths[edge[2]].append(edge[1])
-
-for domain in paths:
-    paths[domain] = [i[0] for i in groupby(paths[domain])]
-
-pprint(paths)
-
-# Step 3: Write the AS-based edges to a new CSV file using Pandas
 as_df = []
-label = 1
 headers = ['From', 'To', 'domain', 'label']
 
-for domain in paths:
-    path = paths[domain]
-    for i in range(1, len(path)):
-        as_df.append([path[i-1], path[i], domain, label])
+def fill(label):
 
-as_df = pd.DataFrame(as_df)
-as_df.set_axis(headers, axis='columns', inplace=True)
-#as_df.to_csv('as_edges.csv')
+    as_edges = []
+    out_df = pd.read_csv('edges.csv')
+    for _, row in out_df.iterrows():
+        src_ip, dst_ip, domain, lab, ttl = row
+        src_as = ip_as_mapping.get(src_ip)
+        dst_as = ip_as_mapping.get(dst_ip)
+        if label == lab: as_edges.append([src_as, dst_as, domain])
+
+    paths = {}
+    for edge in as_edges:
+        if edge[2] not in paths: paths[edge[2]] = []
+        if edge[0] is not None: paths[edge[2]].append(edge[0])
+        if edge[1] is not None: paths[edge[2]].append(edge[1])
+
+    for domain in paths:
+        paths[domain] = [i[0] for i in groupby(paths[domain])]
+
+    for domain in paths:
+        path = paths[domain]
+        for i in range(1, len(path)):
+            as_df.append([path[i-1], path[i], domain, label])
+
+for i in range(1, 5):
+    fill(i)
 
 # Making a list of all unique AS numbers
-as_numbers = {'Source'}
-for domain in paths:
-    path = paths[domain]
-    for node in path: as_numbers.add(node)
+as_numbers = set()
+for edge in as_df:
+    as_numbers.add(edge[0])
+    as_numbers.add(edge[1])
 
 as_numbers = pd.DataFrame(as_numbers)
-#as_numbers.to_csv('as_numbers.csv')
+as_numbers.set_axis(['Label'], axis='columns', inplace=True)
+as_numbers.to_csv('as_numbers.csv', index=False)
+
+# Step 3: Write the AS-based edges to a new CSV file using Pandas
+as_df = pd.DataFrame(as_df)
+as_df.index += 1
+as_df.set_axis(headers, axis='columns', inplace=True)
+as_df.to_csv('as_edges_index.csv', index_label='id')
+
+print(as_df)
