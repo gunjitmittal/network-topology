@@ -2,12 +2,12 @@ import pandas as pd
 from itertools import groupby
 from pprint import pprint
 
-# Step 1: Read ip.csv to create a mapping of IP addresses to AS numbers
+
 ip_as_mapping = pd.read_csv('ip.csv')
 ip_as_mapping = ip_as_mapping.iloc[:, :2]
 ip_as_mapping = dict(ip_as_mapping.values)
 
-# Step 2: Read out.csv and replace IP-based edges with AS-based edges
+
 as_df = []
 
 def as_org_split(s):
@@ -42,7 +42,7 @@ def fill(label):
 for i in range(1, 5):
     fill(i)
 
-# Making a list of all unique AS numbers
+
 as_numbers_set = set()
 for edge in as_df:
     as_numbers_set.add(edge[0])
@@ -57,7 +57,7 @@ as_numbers = pd.DataFrame(as_numbers)
 as_numbers.set_axis(['Label', 'Organization'], axis='columns', inplace=True)
 as_numbers.to_csv('as_numbers.csv', index=False)
 
-# Step 3: Write the AS-based edges to a new CSV file using Pandas
+
 for i, edge in enumerate(as_df):
     asn1, org1 = as_org_split(edge[0])
     asn2, org2 = as_org_split(edge[1])
