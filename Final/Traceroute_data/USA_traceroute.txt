@@ -1,0 +1,151 @@
+google.com
+ 1  10.2.0.1 (10.2.0.1)  358.151 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  272.599 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  738.062 ms
+ 4  nyk-b8-link.ip.twelve99.net (62.115.191.217)  261.116 ms
+ 5  72.14.204.154 (72.14.204.154)  262.589 ms
+ 6  142.250.63.91 (142.250.63.91)  263.641 ms
+ 7  142.250.224.245 (142.250.224.245)  262.840 ms
+ 8  lga25s70-in-f14.1e100.net (172.217.165.142)  263.318 ms
+fitbit.com
+ 1  10.2.0.1 (10.2.0.1)  309.255 ms
+ 2  unn-37-19-199-157.datapacket.com (37.19.199.157)  305.323 ms
+ 3  vl204.nyc-tlx3-core-2.cdn77.com (185.229.188.176)  266.395 ms
+ 4  nyk-b8-link.ip.twelve99.net (62.115.191.217)  344.034 ms
+ 5  72.14.204.154 (72.14.204.154)  306.632 ms
+ 6  142.251.67.163 (142.251.67.163)  307.563 ms
+ 7  216.239.40.187 (216.239.40.187)  261.895 ms
+ 8  214.183.149.34.bc.googleusercontent.com (34.149.183.214)  306.387 ms
+ed.ac.uk
+ 1  10.2.0.1 (10.2.0.1)  263.489 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  261.701 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  358.771 ms
+ 4  nyk-b8-link.ip.twelve99.net (62.115.191.217)  380.052 ms
+ 5  nyk-bb1-link.ip.twelve99.net (62.115.143.14)  311.526 ms
+ 6  *
+ 7  ldn-b2-link.ip.twelve99.net (62.115.120.239)  341.547 ms
+ 8  jisc-ic-345131.ip.twelve99-cust.net (62.115.175.131)  381.690 ms
+ 9  ae24.londhx-sbr1.ja.net (146.97.35.197)  356.167 ms
+10  ae29.londpg-sbr2.ja.net (146.97.33.2)  375.838 ms
+11  ae31.erdiss-sbr2.ja.net (146.97.33.22)  337.978 ms
+12  ae29.manckh-sbr2.ja.net (146.97.33.42)  338.931 ms
+13  ae31.glasss-sbr1.ja.net (146.97.33.54)  457.597 ms
+14  ae29.edinat-rbr2.ja.net (146.97.38.38)  342.475 ms
+15  ae25.edinkb-rbr2.ja.net (146.97.74.34)  385.660 ms
+16  university-of-edinburgh.ja.net (146.97.156.78)  407.534 ms
+17  remote.net.ed.ac.uk (192.41.103.209)  408.676 ms
+18  *
+19  *
+20  crieff.ed.ac.uk (129.215.97.20)  441.870 ms
+harvard.edu
+ 1  10.2.0.1 (10.2.0.1)  263.234 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  260.889 ms
+ 3  vl201.nyc-tlx3-core-1.cdn77.com (185.229.188.170)  262.423 ms
+ 4  *
+ 5  be3363.ccr42.jfk02.atlas.cogentco.com (154.54.3.125)  301.085 ms
+ 6  be3071.rcr52.ewr01.atlas.cogentco.com (154.54.90.58)  263.401 ms
+ 7  38.104.44.122 (38.104.44.122)  330.178 ms
+ 8  151.101.66.133 (151.101.66.133)  324.538 ms
+delugerpg.com
+ 1  10.2.0.1 (10.2.0.1)  263.217 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  261.461 ms
+ 3  vl201.nyc-tlx3-core-1.cdn77.com (185.229.188.170)  313.365 ms
+ 4  vl250.nyc-tlx3-core-2.cdn77.com (185.229.188.169)  309.489 ms
+ 5  cloudflare-nyc.cdn77.com (45.134.215.17)  262.141 ms
+ 6  162.158.156.5 (162.158.156.5)  261.697 ms
+ 7  104.26.3.57 (104.26.3.57)  318.707 ms
+friv.com
+ 1  10.2.0.1 (10.2.0.1)  309.151 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  339.872 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  371.697 ms
+ 4  be6080.ccr31.jfk04.atlas.cogentco.com (38.104.72.1)  345.016 ms
+ 5  be3363.ccr42.jfk02.atlas.cogentco.com (154.54.3.125)  306.258 ms
+ 6  be2807.ccr42.dca01.atlas.cogentco.com (154.54.40.110)  308.376 ms
+ 7  be3084.ccr41.iad02.atlas.cogentco.com (154.54.30.66)  348.801 ms
+ 8  38.122.62.10 (38.122.62.10)  267.772 ms
+ 9  po-1.ce12.wdc-02.us.leaseweb.net (173.208.126.45)  267.253 ms
+10  207.244.69.244 (207.244.69.244)  304.743 ms
+miniclip.com
+ 1  10.2.0.1 (10.2.0.1)  261.260 ms
+ 2  unn-37-19-199-157.datapacket.com (37.19.199.157)  263.350 ms
+ 3  vl203.nyc-tlx3-core-1.cdn77.com (185.229.188.172)  358.799 ms
+ 4  be-104-pe11.60hudson.ny.ibone.comcast.net (75.149.231.93)  278.420 ms
+ 5  be-4111-cs01.newyork.ny.ibone.comcast.net (96.110.34.49)  261.812 ms
+ 6  be-1113-cr13.newyork.ny.ibone.comcast.net (68.86.86.82)  261.600 ms
+ 7  be-302-cr14.newark.nj.ibone.comcast.net (68.86.83.181)  263.534 ms
+ 8  be-1114-cs01.newark.nj.ibone.comcast.net (96.110.37.65)  262.937 ms
+ 9  be-3111-pe11.philadelphia.pa.ibone.comcast.net (96.110.36.130)  264.314 ms
+10  50.242.150.106 (50.242.150.106)  267.726 ms
+11  52.93.60.223 (52.93.60.223)  266.462 ms
+12  *
+13  *
+14  *
+15  *
+16  *
+17  *
+18  server-13-224-214-22.phl50.r.cloudfront.net (13.224.214.22)  267.232 ms
+notdoppler.com
+ 1  10.2.0.1 (10.2.0.1)  262.725 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  265.674 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  260.924 ms
+ 4  cloudflare-nyc.cdn77.com (45.134.215.17)  267.327 ms
+ 5  162.158.156.5 (162.158.156.5)  272.549 ms
+ 6  172.67.22.126 (172.67.22.126)  260.698 ms
+guinnessworldrecords.com
+ 1  10.2.0.1 (10.2.0.1)  288.853 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  261.313 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  312.579 ms
+ 4  be-101-pe11.60hudson.ny.ibone.comcast.net (50.220.200.185)  262.171 ms
+ 5  be-4311-cs03.newyork.ny.ibone.comcast.net (96.110.34.57)  287.065 ms
+ 6  be-1313-cr13.newyork.ny.ibone.comcast.net (68.86.86.90)  265.620 ms
+ 7  be-301-cr14.newark.nj.ibone.comcast.net (68.86.83.177)  284.845 ms
+ 8  be-1214-cs02.newark.nj.ibone.comcast.net (96.110.37.69)  266.795 ms
+ 9  be-3211-pe11.philadelphia.pa.ibone.comcast.net (96.110.36.134)  296.007 ms
+10  23.30.207.38 (23.30.207.38)  281.528 ms
+11  *
+12  *
+13  *
+14  *
+15  *
+16  *
+17  *
+18  server-13-224-214-79.phl50.r.cloudfront.net (13.224.214.79)  311.772 ms
+fearp.usp.br
+ 1  10.2.0.1 (10.2.0.1)  296.845 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  268.010 ms
+ 3  vl202.nyc-tlx3-core-2.cdn77.com (185.229.188.174)  281.004 ms
+ 4  be6080.ccr31.jfk04.atlas.cogentco.com (38.104.72.1)  267.133 ms
+ 5  be3362.ccr41.jfk02.atlas.cogentco.com (154.54.3.9)  302.672 ms
+ 6  be2806.ccr41.dca01.atlas.cogentco.com (154.54.40.106)  282.186 ms
+ 7  be2112.ccr41.atl01.atlas.cogentco.com (154.54.7.158)  362.664 ms
+ 8  be3482.ccr21.mia01.atlas.cogentco.com (154.54.24.146)  368.166 ms
+ 9  be3081.ccr41.mia03.atlas.cogentco.com (154.54.88.226)  327.669 ms
+10  38.88.165.74 (38.88.165.74)  329.447 ms
+11  sp2-mia1-atl.bkb.rnp.br (200.143.255.90)  402.995 ms
+12  170.79.214.109 (170.79.214.109)  409.685 ms
+13  143.107.0.184 (143.107.0.184)  407.625 ms
+14  143.107.0.10 (143.107.0.10)  505.945 ms
+15  143.107.22.245 (143.107.22.245)  417.220 ms
+16  e-4-4-mlxcetirp-v4.uspnet.rp.usp.br (143.107.159.1)  421.159 ms
+17  143.107.159.94 (143.107.159.94)  412.913 ms
+18  ngnix.fearp.usp.br (143.107.205.12)  414.060 ms
+facebook.com
+ 1  10.2.0.1 (10.2.0.1)  265.000 ms
+ 2  unn-37-19-199-156.datapacket.com (37.19.199.156)  262.176 ms
+ 3  vl201.nyc-tlx3-core-1.cdn77.com (185.229.188.170)  264.005 ms
+ 4  vl250.nyc-tlx3-core-2.cdn77.com (185.229.188.169)  261.367 ms
+ 5  ae80.pr05.lga1.tfbnw.net (157.240.75.4)  262.550 ms
+ 6  po201.asw03.lga1.tfbnw.net (157.240.103.104)  337.002 ms
+ 7  po262.psw02.lga3.tfbnw.net (157.240.107.173)  307.640 ms
+ 8  157.240.38.149 (157.240.38.149)  308.927 ms
+ 9  edge-star-mini-shv-01-lga3.facebook.com (31.13.71.36)  307.836 ms
+instagram.com
+ 1  10.2.0.1 (10.2.0.1)  306.261 ms
+ 2  unn-37-19-199-157.datapacket.com (37.19.199.157)  306.502 ms
+ 3  vl203.nyc-tlx3-core-1.cdn77.com (185.229.188.172)  304.578 ms
+ 4  vl250.nyc-tlx3-core-2.cdn77.com (185.229.188.169)  306.559 ms
+ 5  ae80.pr05.lga1.tfbnw.net (157.240.75.4)  305.607 ms
+ 6  po201.asw01.lga1.tfbnw.net (157.240.103.100)  261.283 ms
+ 7  po205.psw03.lga3.tfbnw.net (157.240.107.95)  383.027 ms
+ 8  157.240.38.191 (157.240.38.191)  262.622 ms
+ 9  instagram-p42-shv-01-lga3.fbcdn.net (31.13.71.174)  261.896 ms

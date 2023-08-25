@@ -1,0 +1,518 @@
+﻿
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:06 India Standard Time
+
+Nmap scan report for google.com (142.250.195.206)
+
+Host is up (0.016s latency).
+
+rDNS record for 142.250.195.206: maa03s42-in-f14.1e100.net
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT      ADDRESS
+
+1   2.00 ms  192.168.29.1
+
+2   3.00 ms  10.3.80.1
+
+3   3.00 ms  172.31.0.136
+
+4   4.00 ms  192.168.59.124
+
+5   5.00 ms  172.26.74.68
+
+6   5.00 ms  172.26.75.131
+
+7   6.00 ms  192.168.60.232
+
+8   ... 9
+
+10  19.00 ms 209.85.168.26
+
+11  20.00 ms 72.14.238.215
+
+12  18.00 ms 142.251.49.219
+
+13  18.00 ms maa03s42-in-f14.1e100.net (142.250.195.206)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:06 India Standard Time
+
+Nmap scan report for fitbit.com (34.149.183.214)
+
+Host is up (0.020s latency).
+
+rDNS record for 34.149.183.214: 214.183.149.34.bc.googleusercontent.com
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT      ADDRESS
+
+1   2.00 ms  192.168.29.1
+
+2   6.00 ms  10.3.80.1
+
+3   7.00 ms  172.31.2.18
+
+4   8.00 ms  192.168.59.120
+
+5   5.00 ms  172.26.74.68
+
+6   9.00 ms  172.26.75.130
+
+7   6.00 ms  192.168.60.226
+
+8   ... 9
+
+10  21.00 ms 209.85.168.26
+
+11  21.00 ms 216.239.47.175
+
+12  23.00 ms 74.125.253.107
+
+13  22.00 ms 214.183.149.34.bc.googleusercontent.com (34.149.183.214)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:09 India Standard Time
+
+Nmap scan report for harvard.edu (151.101.130.133)
+
+Host is up (0.020s latency).
+
+Other addresses for harvard.edu (not scanned): 151.101.194.133 151.101.2.133 151.101.66.133
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT      ADDRESS
+
+1   2.00 ms  192.168.29.1
+
+2   4.00 ms  10.3.80.1
+
+3   4.00 ms  172.31.0.136
+
+4   5.00 ms  192.168.59.120
+
+5   6.00 ms  172.26.74.68
+
+6   8.00 ms  172.26.75.131
+
+7   9.00 ms  192.168.60.226
+
+8   ... 10
+
+11  21.00 ms 49.44.18.38
+
+12  ... 15
+
+16  20.00 ms 151.101.130.133
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:10 India Standard Time
+
+Nmap scan report for fearp.usp.br (143.107.205.12)
+
+Host is up (0.34s latency).
+
+rDNS record for 143.107.205.12: ngnix.fearp.usp.br
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT       ADDRESS
+
+1   2.00 ms   192.168.29.1
+
+2   4.00 ms   10.3.80.1
+
+3   5.00 ms   172.31.0.136
+
+4   6.00 ms   192.168.59.120
+
+5   8.00 ms   172.26.74.68
+
+6   9.00 ms   172.26.75.130
+
+7   10.00 ms  192.168.60.232
+
+8   ... 9
+
+10  21.00 ms  103.198.140.174
+
+11  201.00 ms 103.198.140.56
+
+12  202.00 ms 103.198.140.107
+
+13  201.00 ms 103.198.140.205
+
+14  199.00 ms ae-21.a02.nycmny17.us.bb.gin.ntt.net (128.241.7.158)
+
+15  198.00 ms ae-16.r21.nwrknj03.us.bb.gin.ntt.net (129.250.3.16)
+
+16  205.00 ms ae-3.r25.asbnva02.us.bb.gin.ntt.net (129.250.6.116)
+
+17  201.00 ms ae-1.r24.asbnva02.us.bb.gin.ntt.net (129.250.2.37)
+
+18  245.00 ms ae-1.r23.miamfl02.us.bb.gin.ntt.net (129.250.2.87)
+
+19  228.00 ms ae-1.a02.miamfl02.us.bb.gin.ntt.net (129.250.2.108)
+
+20  259.00 ms xe-1-5-0-2.a02.miamfl02.us.ce.gin.ntt.net (129.250.200.158)
+
+21  ... 22
+
+23  330.00 ms 143.107.0.184
+
+24  345.00 ms 143.107.0.14
+
+25  338.00 ms e-4-4-mlxcetirp-v4.uspnet.rp.usp.br (143.107.159.1)
+
+26  341.00 ms 143.107.159.94
+
+27  338.00 ms ngnix.fearp.usp.br (143.107.205.12)
+
+
+
+
+
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:13 India Standard Time
+
+Nmap scan report for ed.ac.uk (129.215.97.66)
+
+Host is up (0.15s latency).
+
+Other addresses for ed.ac.uk (not scanned): 129.215.149.43 129.215.97.20 129.215.97.21 129.215.235.217 129.215.97.67 129.215.97.62 129.215.97.33 129.215.235.216
+
+rDNS record for 129.215.97.66: kelso.ed.ac.uk
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT       ADDRESS
+
+1   3.00 ms   192.168.29.1
+
+2   4.00 ms   10.3.80.1
+
+3   5.00 ms   172.31.2.18
+
+4   6.00 ms   192.168.59.124
+
+5   6.00 ms   172.26.74.68
+
+6   7.00 ms   172.26.75.131
+
+7   8.00 ms   192.168.60.230
+
+8   ... 9
+
+10  18.00 ms  103.198.140.176
+
+11  117.00 ms 103.198.140.54
+
+12  ...
+
+13  152.00 ms mei-b5-link.ip.twelve99.net (62.115.11.140)
+
+14  161.00 ms prs-bb2-link.ip.twelve99.net (62.115.124.56)
+
+15  169.00 ms ldn-bb2-link.ip.twelve99.net (62.115.133.238)
+
+16  190.00 ms ldn-b2-link.ip.twelve99.net (62.115.120.239)
+
+17  199.00 ms jisc-ic-345131.ip.twelve99-cust.net (62.115.175.131)
+
+18  182.00 ms ae24.londhx-sbr1.ja.net (146.97.35.197)
+
+19  188.00 ms ae29.londpg-sbr2.ja.net (146.97.33.2)
+
+20  186.00 ms ae31.erdiss-sbr2.ja.net (146.97.33.22)
+
+21  145.00 ms ae29.manckh-sbr2.ja.net (146.97.33.42)
+
+22  145.00 ms ae31.glasss-sbr1.ja.net (146.97.33.54)
+
+23  150.00 ms ae29.edinat-rbr2.ja.net (146.97.38.38)
+
+24  146.00 ms ae25.edinkb-rbr2.ja.net (146.97.74.34)
+
+25  145.00 ms university-of-edinburgh.ja.net (146.97.156.78)
+
+26  147.00 ms remote.net.ed.ac.uk (192.41.103.209)
+
+27  ... 28
+
+29  147.00 ms kelso.ed.ac.uk (129.215.97.66)
+
+
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:16 India Standard Time
+
+Nmap scan report for facebook.com (157.240.192.35)
+
+Host is up (0.016s latency).
+
+rDNS record for 157.240.192.35: edge-star-mini-shv-02-maa2.facebook.com
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT      ADDRESS
+
+1   1.00 ms  192.168.29.1
+
+2   5.00 ms  10.3.80.1
+
+3   3.00 ms  172.31.2.18
+
+4   4.00 ms  192.168.59.120
+
+5   4.00 ms  172.26.74.68
+
+6   5.00 ms  172.26.75.131
+
+7   6.00 ms  192.168.60.230
+
+8   ... 9
+
+10  17.00 ms ae0.pr02.maa2.tfbnw.net (157.240.68.92)
+
+11  15.00 ms po102.psw03.maa2.tfbnw.net (129.134.34.155)
+
+12  19.00 ms 157.240.36.65
+
+13  16.00 ms edge-star-mini-shv-02-maa2.facebook.com (157.240.192.35)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:16 India Standard Time
+
+Nmap scan report for instagram.com (157.240.192.174)
+
+Host is up (0.014s latency).
+
+rDNS record for 157.240.192.174: instagram-p42-shv-02-maa2.fbcdn.net
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT      ADDRESS
+
+1   1.00 ms  192.168.29.1
+
+2   5.00 ms  10.3.80.1
+
+3   5.00 ms  172.31.2.18
+
+4   4.00 ms  192.168.59.120
+
+5   5.00 ms  172.26.74.68
+
+6   6.00 ms  172.26.75.130
+
+7   7.00 ms  192.168.60.226
+
+8   ... 9
+
+10  16.00 ms ae0.pr02.maa2.tfbnw.net (157.240.68.92)
+
+11  16.00 ms po102.psw01.maa2.tfbnw.net (129.134.34.151)
+
+12  18.00 ms 157.240.39.177
+
+13  ...
+
+14  15.00 ms instagram-p42-shv-02-maa2.fbcdn.net (157.240.192.174)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:18 India Standard Time
+
+Nmap scan report for delugerpg.com (172.67.69.31)
+
+Host is up (0.013s latency).
+
+Other addresses for delugerpg.com (not scanned): 104.26.2.57 104.26.3.57
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT      ADDRESS
+
+1   1.00 ms  192.168.29.1
+
+2   4.00 ms  10.3.80.1
+
+3   4.00 ms  172.31.2.18
+
+4   6.00 ms  192.168.59.124
+
+5   7.00 ms  172.26.74.68
+
+6   8.00 ms  172.26.75.131
+
+7   9.00 ms  192.168.60.228
+
+8   ... 9
+
+10  13.00 ms 49.44.187.49
+
+11  12.00 ms 172.67.69.31
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:19 India Standard Time
+
+Nmap scan report for friv.com (207.244.69.244)
+
+Host is up (0.29s latency).
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT       ADDRESS
+
+1   2.00 ms   192.168.29.1
+
+2   4.00 ms   10.3.80.1
+
+3   6.00 ms   172.31.0.136
+
+4   4.00 ms   192.168.59.124
+
+5   5.00 ms   172.26.74.68
+
+6   6.00 ms   172.26.75.131
+
+7   7.00 ms   192.168.60.230
+
+8   ... 9
+
+10  16.00 ms  103.198.140.64
+
+11  192.00 ms 49.45.4.86
+
+12  48.00 ms  unknown.telstraglobal.net (210.57.38.112)
+
+13  48.00 ms  ix-be-8.ecore4.esin4-singapore.as6453.net (180.87.54.6)
+
+14  251.00 ms if-be-28-2.ecore1.esin4-singapore.as6453.net (180.87.107.196)
+
+15  252.00 ms if-be-28-2.ecore1.esin4-singapore.as6453.net (180.87.107.196)
+
+16  ... 18
+
+19  253.00 ms if-bundle-34-2.qcore2.lvw-losangeles.as6453.net (207.45.219.128)
+
+20  ...
+
+21  260.00 ms if-bundle-34-2.qcore2.lvw-losangeles.as6453.net (207.45.219.128)
+
+22  296.00 ms 207.244.69.244
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:20 India Standard Time
+
+Nmap scan report for guinnessworldrecords.com (18.155.49.113)
+
+Host is up (0.0054s latency).
+
+Other addresses for guinnessworldrecords.com (not scanned): 18.155.49.127 18.155.49.122 18.155.49.129
+
+rDNS record for 18.155.49.113: server-18-155-49-113.hyd57.r.cloudfront.net
+
+
+
+TRACEROUTE (using port 443/tcp)
+
+HOP RTT      ADDRESS
+
+1   2.00 ms  192.168.29.1
+
+2   4.00 ms  10.3.80.1
+
+3   5.00 ms  172.31.2.18
+
+4   10.00 ms 192.168.59.120
+
+5   6.00 ms  172.26.74.68
+
+6   7.00 ms  172.26.75.130
+
+7   8.00 ms  192.168.60.230
+
+8   ... 14
+
+15  7.00 ms  server-18-155-49-113.hyd57.r.cloudfront.net (18.155.49.113)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:21 India Standard Time
+
+Nmap scan report for miniclip.com (18.155.49.56)
+
+Host is up (0.0060s latency).
+
+Other addresses for miniclip.com (not scanned): 18.155.49.122 18.155.49.82 18.155.49.105
+
+rDNS record for 18.155.49.56: server-18-155-49-56.hyd57.r.cloudfront.net
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT     ADDRESS
+
+1   1.00 ms 192.168.29.1
+
+2   2.00 ms 10.3.80.1
+
+3   4.00 ms 172.31.0.136
+
+4   4.00 ms 192.168.59.120
+
+5   5.00 ms 172.26.74.68
+
+6   6.00 ms 172.26.75.130
+
+7   7.00 ms 192.168.60.226
+
+8   ... 14
+
+15  6.00 ms server-18-155-49-56.hyd57.r.cloudfront.net (18.155.49.56)
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-08-20 12:22 India Standard Time
+
+Nmap scan report for notdoppler.com (104.22.28.219)
+
+Host is up (0.013s latency).
+
+Other addresses for notdoppler.com (not scanned): 172.67.22.126 104.22.29.219
+
+
+
+TRACEROUTE (using proto 1/icmp)
+
+HOP RTT      ADDRESS
+
+1   2.00 ms  192.168.29.1
+
+2   6.00 ms  10.3.80.1
+
+3   8.00 ms  172.31.2.18
+
+4   5.00 ms  192.168.59.120
+
+5   6.00 ms  172.26.74.68
+
+6   8.00 ms  172.26.75.130
+
+7   9.00 ms  192.168.60.228
+
+8   ... 9
+
+10  16.00 ms 49.44.187.49
+
+11  13.00 ms 104.22.28.219
+
